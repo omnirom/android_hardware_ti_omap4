@@ -215,11 +215,6 @@ typedef enum OMX_TI_INDEXTYPE {
     OMX_TI_IndexConfigAlgoAreas,                        /**< 0x7F000079 reference: OMX_PARAM_SHAREDBUFFER (pSharedBuff is OMX_ALGOAREASTYPE) */
     OMX_TI_IndexConfigAutofocusEnable,                  /**< 0x7F00007A reference: OMX_CONFIG_BOOLEANTYPE */
     OMX_TI_IndexComponentHandle,                        /**< 0x7F00007B reference: OMX_TI_COMPONENT_HANDLE */
-    /* Unused and unsupported indexes on tuna, only added here to avoid some ifdefs */
-    OMX_TI_IndexUseBufferDescriptor,
-    OMX_TI_IndexParamComponentBufferAllocation,
-    OMX_TI_IndexConfigGammaTable,
-    OMX_TI_IndexConfigDynamicCameraDescriptor,
 #else
     OMX_TI_IndexConfigSinglePreviewMode,                /**< 0x7F000072 reference:  */
     OMX_TI_IndexConfigFreezeAWB,                        /**< 0x7F000073 reference:  */
