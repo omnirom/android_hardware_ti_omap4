@@ -48,3 +48,4 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.bq.gpu_to_cpu_unsupported=1
 
 $(call inherit-product, hardware/ti/omap4/common.mk)
+$(call inherit-product-if-exists, vendor/ti/omap4/omap4-vendor.mk)
