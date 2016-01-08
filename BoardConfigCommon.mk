@@ -28,7 +28,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 USE_OPENGL_RENDERER := true
 
 # Global include changes
-#TARGET_SPECIFIC_HEADER_PATH += $(OMAP4_NEXT_FOLDER)/include
+TARGET_SPECIFIC_HEADER_PATH += $(OMAP4_NEXT_FOLDER)/include
 
 # OMX buffer reallocate
 BOARD_CANT_REALLOCATE_OMX_BUFFERS := true
