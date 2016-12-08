@@ -1,3 +1,7 @@
+on fs
+    # Load PVR module
+    insmod /system/lib/modules/pvrsrvkm.ko
+
 service pvrsrvinit /system/bin/pvrsrvinit
     class core
     user root
