@@ -4,3 +4,7 @@
 
 # System binaries
 /system/bin/pvrsrvinit       u:object_r:pvrsrvinit_exec:s0
+
+# Hardware tunables
+/sys/devices/platform/omapdss/manager0/cpr_coef       -- u:object_r:sysfs_hardware:s0
+/sys/devices/platform/omapdss/manager0/cpr_enable     -- u:object_r:sysfs_hardware:s0
